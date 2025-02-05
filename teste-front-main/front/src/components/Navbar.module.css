@@ -1,0 +1,34 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px 20px;
+    z-index: 1000;
+    margin-left: 10px;
+    font-family: Arial, sans-serif;
+    
+    
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 1px;
+  }
+  
+  .button {
+    padding: 8px 12px;
+    background-color: gray;
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 15px;
+    margin-left: auto;
+  }
